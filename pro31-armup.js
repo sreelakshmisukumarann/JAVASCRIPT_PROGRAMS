@@ -1,0 +1,1 @@
+//w.a.p to display all armstrong numbers from 8 to 500

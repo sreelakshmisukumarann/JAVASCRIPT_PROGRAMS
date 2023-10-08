@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Javascript</h1>
+    <h2 id="dom">DOM</h2>
+    <button onclick="change()" type="button">change</button>
+    <h2 class="grp1">dom model</h2>
+    <ol class="grp2">
+        <li>document.getElementByTagName</li>
+        <li>document.getElementById</li>
+    </ol>
+</body>
+
+<script> //change the content of corresponding id
+//   let content = document.getElementById("dom")
+//   console.log(content);
+//   content.innerHTML="Document object model"
+
+// dom.innerHTML="document object model" // This only work using take id to change .using this single statement
+
+function change()
+{
+    dom.innerHTML="document object model"
+    dom.style.color="green"
+}
+</script>
+
+</html>
